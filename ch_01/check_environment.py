@@ -7,6 +7,7 @@ import re
 OK = '\x1b[42m[ OK ]\x1b[0m'
 FAIL = '\x1b[41m[FAIL]\x1b[0m'
 
+# another test only comment
 pattern = re.compile(r'(?:\/)([\w*\-*]*)(?:\.git)')
 
 def run_checks():
